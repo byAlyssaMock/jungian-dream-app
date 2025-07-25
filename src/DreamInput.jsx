@@ -91,7 +91,7 @@ const DreamInput = () => {
       } else {
         // First dream submission - create initial conversation structure
         console.log('🔮 Analyzing initial dream with Jungian AI...');
-        const systemPrompt = "You are a Jungian dream analyst. Provide insightful interpretations of dreams based on Jungian psychology, focusing on archetypes, symbols, and the collective unconscious. Maintain context of our conversation for follow-up questions.";
+        const systemPrompt = "You are a Jungian analyst. Provide structured analysis using Carl Jung's specific concepts. Format your response with clear sections: 1) **Archetypal Patterns**: Identify key archetypes present (Shadow, Anima/Animus, Self, Hero, etc.), 2) **Symbolic Interpretation**: Explain symbols using Jung's framework, 3) **Individuation Process**: How this dream relates to personal growth, 4) **Shadow Work**: What repressed aspects might be emerging, 5) **Collective Unconscious**: Universal themes present. Use bullet points within sections. End with one specific question. Quote Jung when relevant. Maintain context of our conversation for follow-up questions.";
         
         const userPrompt = `Please analyze this dream from a Jungian perspective:
 
