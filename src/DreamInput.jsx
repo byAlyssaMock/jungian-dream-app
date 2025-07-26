@@ -20,7 +20,7 @@ const DreamInput = () => {
   const symbols = [
     'Shadow Figure', 'Water/Ocean', 'Animals', 'Death/Rebirth', 
     'Journey/Quest', 'Wise Elder', 'Divine Mother', 'Inner Child',
-    'House/Building', 'Flying/Falling', 'Mirror', 'Tree'
+    'House/Building', 'Flying', 'Falling', 'Mirror', 'Tree'
   ];
 
   const toggleEmotion = (emotion) => {
